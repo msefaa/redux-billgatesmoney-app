@@ -4,8 +4,7 @@ Note App
 The app lets you spend Bill GATES' money by choosing certain products. You can also see the receipt at the end of the page.
 
 ↪️ See it live!
-
-
+https://spentbilgatesmoneysefa.netlify.app/
 💻 Built With
 React.js
 Redux
