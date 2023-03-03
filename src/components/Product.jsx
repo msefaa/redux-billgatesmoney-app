@@ -22,7 +22,7 @@ function Product({ item }) {
 
   useEffect(() => {
     dispatch(addToChart({ id: item.id, count: count }));
-  }, [count]);
+  }, [dispatch, count, item.id]);
   const handelBuy = () => {
     setCount((p) => p + 1);
   };
